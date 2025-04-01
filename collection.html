@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>funzone</h1>
+        <div class="navbar_link">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="collection.html">Collection</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="menu" onclick="showbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--side nav bar-->
+    <div class="side-nav">
+        <p style="text-align: right;" onclick="closebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-link">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!--header-->
+    <h1 style="padding-left: 20px; margin-top:20px;">Our Collections</h1>
+    <div class="product-section">
+        <div class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <!--products-->
+    <div class="products" id="products">
+        <div class="product-box">
+            <img src="products/T shirts/florencia-simonini-PDZAMYvduVk-unsplash.jpg " alt="">
+            <p>party wear</p>
+        </div>
+        <div class="product-box">
+            <img src="products/shoes/usama-akram-kP6knT7tjn4-unsplash.jpg" alt="">
+            <p>Nike shoes</p>
+
+        </div>
+        <div class="product-box">
+            <img src="products/Shirt/colton-sturgeon-AMp9R24pPUc-unsplash.jpg" alt="">
+            <p>Elite shirts</p>
+        </div>
+        <div class="product-box">
+            <img src="products/jewels/lena-laurentez-9l6EGApUpWo-unsplash.jpg" alt="">
+            <p>sparkle </p>
+        </div>
+        <div class="product-box">
+            <img src="products/T shirts/gisela-carolina-82TqnDtVWTM-unsplash.jpg " alt="">
+            <p>xeno T shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="products/shoes/martin-katler-Y4fKN-RlMV4-unsplash.jpg" alt="">
+            <p>Usama shoes</p>
+        </div>
+        <div class="product-box">
+            <img src="products/Shirt/phil-monte-4V4t0JcOM5E-unsplash.jpg" alt="">
+            <p>strugean shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="products/jewels/hosniye-sadeghi-_Ycmc96ZxWM-unsplash.jpg" alt="">
+            <p>lenna jewels</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2>Funzone</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eligendi alias.</p>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <p>@funzone2025.com</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<script src="script.js"></script>
